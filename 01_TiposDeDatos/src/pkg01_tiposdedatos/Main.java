@@ -195,23 +195,24 @@ public class Main {
 //          
 //          System.out.println("Tu edad es: " + edad);
             
-            int age = 0;
-            String color = "";
-            
-            System.out.println(" Dime tu edad:");
-            
-            age = sc.nextInt();
-            
-            System.out.println(" Dime tu color preferido: ");
-            
-            sc.nextLine();
-            
-            color = sc.nextLine();
-            
-            System.out.println("Tienes " + age + " y tu color preferido es "
-                    + color);
+//            int age = 0;
+//            String color = "";
+//            
+//            System.out.println(" Dime tu edad:");
+//            
+//            age = sc.nextInt();
+//            
+//            System.out.println(" Dime tu color preferido: ");
+//            
+//            sc.nextLine(); /*Añadir para depurar el buffet (Obligatorio añadir 
+//            después de añadir una variable numérica*/
+//            
+//            color = sc.nextLine();
+//            
+//            System.out.println("Tienes " + age + " y tu color preferido es "
+//                    + color);
           
-          // 
+         
         
    
     

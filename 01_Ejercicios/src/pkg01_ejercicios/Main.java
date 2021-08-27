@@ -168,9 +168,126 @@ public class Main {
 //
 //        System.out.print("Has vendido este año " + totalSaleApple + " euros en manzana y " 
 //                + totalSalePear + " euros en peras.");
+//        Ejercicio 1.10 
+//          double radio, longitud, area;
+//          final double Pi = 3.14;
+//          
+//          System.out.print("Introduzca la radio de la circunferencia: ");
+//          radio = sc.nextDouble();
+//           
+//          longitud = 2 * Pi * radio;
+//          area = Pi * (radio * radio);
+//          
+//          System.out.println("La longitud de la circunferencia es de: " + longitud );
+//          System.out.println("El area de la circunferencia es de: " + area );
+//         
+//        Ejercicio Propuestos 
+//        Ejercicio 1.1
+//          final double Iva;
+//          double BI, importeIva, Total;
+//          
+//          System.out.print("Introduzca el IVA a aplicar en decimales: ");
+//          Iva = sc.nextDouble();
+//          System.out.print("Introduzca el base imponible: ");
+//          BI = sc.nextDouble();
+//          
+//          importeIva = BI * Iva;
+//          Total = BI * (1+Iva);
+//          
+//          System.out.println("El importe del Iva es de: " + importeIva "€" );
+//          System.out.print("El total es de: " + Total "€");
+//         Ejercicio 1.2
+//           int numero, suma, result;
+//           
+//           System.out.print("Indique el número comprendido entre 2 y 13 : ");
+//           numero = sc.nextInt();
+//           
+//           if(numero < 7)
+//           {suma = 7 - numero;
+//           System.out.print("Hay que sumerle " + suma " para que sea múltipo de 7")};
+//           
+//           
+//           else(numero > 7); 
+//           {suma = 14 - numero;
+//           System.out.print("Hay que sumerle " + suma " para que sea múltipo de 7")};
+//           Ejercicio 1.3
+//         Ejercicio 1.4
+//          double base, altura, area;
+//          
+//          System.out.print("indique la base del triángulo: ");
+//          base = sc.nextDouble();
+//          System.out.print("Indique la altura del triángulo: ");
+//          altura = sc.nextDouble();
+//          
+//          area = (base * altura) / 2;
+//          
+//          System.out.println("El área del triángulo es de " + area);
+//         Ejercicio 1.5
+//           double a, b, c, x, y;
+//           
+//           System.out.print("Indique el valor de a: ");
+//           a = sc.nextDouble();
+//           System.out.print("Indique el valor de b: ");
+//           b = sc.nextDouble();
+//           System.out.print("Indique el valor de c: ");
+//           c = sc.nextDouble();
+//           System.out.print("Indique el valor de x: ");
+//           x = sc.nextDouble();
+//           
+//           y = a*(x*x) + b*x + c;
+//           
+//           System.out.println("La solución del polinomio es:" + y);
+//         Ejercicio 1.6
+//           int segundos, minutos, horas, segundosTotales;
+//           
+//           System.out.print("Indique los segundos totales: ");
+//           segundosTotales = sc.nextInt();
+//           
+//           segundos = segundosTotales % 60;
+//           minutos = segundosTotales / 60;    
+//           horas = minutos / 60;
+//           minutos = minutos % 60;
+//           
+//                     
+//           System.out.print("Es en total " + horas +" horas, " + minutos + " minutos y "
+//           + segundos + " segundos.");
+//         
+//         Ejercicio 1.7
+//
+//           int milimetros, centimetros, metros, centimetrosTotales;
+//           
+//           System.out.print("Introduzca la primera distancia en milímetros: ");
+//           milimetros = sc.nextInt();
+//           System.out.print("Introduzca la segunda distancia en centímetros: ");
+//           centimetros = sc.nextInt();
+//           System.out.print("Introduzca la tercera distancia en metros: ");
+//           metros = sc.nextInt();
+//           
+//           centimetrosTotales = (milimetros / 100) + centimetros + (metros * 100);
+//           
+//           System.out.print("La distancia total es de " + centimetrosTotales + " centímetros.");
 
-//        Ejercicio 1.10
-   
+//        Ejercicio 1.8
+
+//          int hormigas, aranhas, cochinillas, patas;
+//          
+//          System.out.print("Introduzca el número de hormigas: ");
+//          hormigas = sc.nextInt();
+//          System.out.print("Introduzca el número de arañas: ");
+//          aranhas = sc.nextInt();
+//          System.out.print("Indique el número de cochinillas");
+//          cochinillas = sc.nextInt();
+//          
+//          patas = (hormigas * 6) + (aranhas * 8) + (cochinillas * 14);
+//          
+//          System.out.print("El total de patas contabilizadas es de " + patas + " patas.");
+    
+    
+    
+    
+    
+    
+    
     }
 
 }
